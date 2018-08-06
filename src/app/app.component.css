@@ -1,0 +1,21 @@
+.customer-app{
+    background-color:white;
+}
+
+.customer-app1{
+    background: color #000000;;
+}
+
+:host ::ng-deep .custom-spinner-template {
+    height: 100% !important;
+    width: 100% !important; 
+    /* top: 26% !important;
+    left: 24% !important; */
+}
+
+:host ::ng-deep .custom-spinner-template1 {
+    height: 20% !important;
+    width: 20% !important;
+    top: 35% !important;
+    left: 38% !important;
+}

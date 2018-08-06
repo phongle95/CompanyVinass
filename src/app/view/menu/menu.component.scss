@@ -1,0 +1,40 @@
+ 
+.navbar {
+    background-color: #2BBBAD;
+    // margin-top:60px;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+// @media only screen and (max-width: 768px) {
+//     .navbar {
+//         background-color: #4285F4;
+//     }
+// }
+
+// .customer-header-left { 
+//     float: left !important;
+// } 
+
+// .customer-header-image { 
+//     float: left !important;
+// } 
+
+// .customer-header-date {
+//     margin-left: 237px;
+//     color:white;
+//     margin-top:60px;  
+// }
+.navbar .breadcrumb-item + .breadcrumb-item::before {
+    color: #bdbdbd; }
+.navbar .breadcrumb-item.active {
+    color: #bdbdbd; }
+.navbar.no-content .breadcrumb-item + .breadcrumb-item::before {
+    content: none; }
+
+.custum.menu{
+    padding-right: 300px;
+}
+

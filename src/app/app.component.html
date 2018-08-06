@@ -1,0 +1,22 @@
+<ng4-loading-spinner class="customer-app1" [threshold]="1000" [template]="template" [loadingText]="'Please wait...'" [zIndex]="999">
+</ng4-loading-spinner>
+
+<div *ngIf="flagShow" class="customer-app">
+    <!-- <app-header></app-header> -->
+
+    <app-menu></app-menu>
+    <!-- <app-image></app-image> -->
+    <app-content></app-content>
+    <app-team></app-team>
+    <div class="fixed-action-btn animated  infinite" style="bottom: 70px; left: 10px;">
+
+
+        <a href="tel:01628811678" class="btn-floating btn-large blue waves-light" mdbWavesEffect (click)="fixed.toggle($event)">
+            <i class="fa fa-phone"></i>
+        </a>
+        <div class="chip red-text">
+            GỌI NGAY
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
